@@ -50,7 +50,7 @@ const userReducer = (state = initialState, action) => {
                 profile:action.payload
             }
         default:
-            console.log(state)
+            // console.log(state)
             return state;
     }
 }
